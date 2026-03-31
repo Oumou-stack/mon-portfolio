@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  /* Couleurs */
+  --color-pink: #E6748E;
+  --color-melon: #E5A9A9;
+  --color-veranda-blue: #6BB2AE;
+  --color-cream: #FFF8F0;
+  --color-dark: #333333;
+
+  /* Polices */
+  --font-chewy: 'Chewy', cursive;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-dark);
+  font-family: var(--font-poppins);
+}
