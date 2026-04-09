@@ -35,7 +35,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-8">
             <Link
               to="/projects"
-              className="bg-melon hover:bg-pink text-white font-chewy text-lg px-8 py-3 rounded-full shadow-md transition-all hover:scale-105"
+              className="bg-melon hover:bg-pink text-white font-semibold text-lg px-8 py-3 rounded-full shadow-md transition-all hover:scale-105"
             >
               Voir mes projets
             </Link>

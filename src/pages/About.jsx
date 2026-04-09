@@ -41,7 +41,7 @@ export default function About() {
           <p className="text-base text-gray-700 py-4 leading-relaxed italic">
             Motivée, curieuse et en constante évolution, je suis à la recherche d'une <strong>alternance en développement web</strong> afin de consolider mes compétences.
           </p>
-          <Link to="/projects" className="inline-block bg-melon hover:bg-pink text-white font-chewy text-xl px-12 py-4 rounded-2xl transition-all shadow-lg hover:scale-105">
+          <Link to="/projects" className="inline-block bg-melon hover:bg-pink text-white font-semibold text-xl px-12 py-4 rounded-2xl transition-all shadow-lg hover:scale-105">
             Voir mes projets
           </Link>
         </div>
