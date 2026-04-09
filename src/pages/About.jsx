@@ -13,7 +13,7 @@ export default function About() {
       <section
         className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center gap-8 md:gap-20 px-6 py-16 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroBg})` }}>
-        <img src={aboutHero} alt="Oumou parcours" className="hidden md:block w-1/3 max-w-sm" />
+        <img src={aboutHero} alt="Oumou parcours" className="hidden md:block w-1/3 max-w-sm md:w-1/2" />
         <div className="w-full max-w-xl space-y-4 rounded-3xl p-6 md:p-8 bg-white/60 backdrop-blur-sm border-t-4 border-pink">
           <h1 className="font-chewy text-3xl md:text-5xl text-veranda-blue italic">À propos de moi</h1>
           <div className="space-y-4 text-sm md:text-base leading-relaxed text-gray-700">
