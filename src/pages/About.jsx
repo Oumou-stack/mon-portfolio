@@ -12,8 +12,7 @@ export default function About() {
       {/* Hero */}
       <section
         className="w-full min-h-screen flex flex-col md:flex-row items-center justify-center gap-8 md:gap-20 px-6 py-16 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      >
+        style={{ backgroundImage: `url(${heroBg})` }}>
         <img src={aboutHero} alt="Oumou parcours" className="hidden md:block w-1/3 max-w-sm" />
         <div className="w-full max-w-xl space-y-4 rounded-3xl p-6 md:p-8 bg-white/60 backdrop-blur-sm border-t-4 border-pink">
           <h1 className="font-chewy text-3xl md:text-5xl text-veranda-blue italic">À propos de moi</h1>
