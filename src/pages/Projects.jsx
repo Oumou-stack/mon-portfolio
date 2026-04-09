@@ -52,7 +52,7 @@ export default function Projects() {
                     </ul>
                     {/*Btns*/}
                     <div className="flex gap-4 mt-6">
-                        <Link target="_blank" to="https://oumou-stack.github.io/guardian" className="bg-melon hover:bg-pink text-white text-lg font-chewy px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">Voir le projet</Link>
+                        <Link target="_blank" to="https://oumou-stack.github.io/guardian" className="bg-melon hover:bg-pink text-white text-lg font-semibold px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">Voir le projet</Link>
 
                         <Link target="_blank" to="https://github.com/Oumou-stack/guardian" className="text-pink font-semibold border-2 border-melon border hover:bg-pink hover:text-white px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">
                             Voir le code
@@ -97,7 +97,7 @@ export default function Projects() {
 
                     {/*Btns*/}
                     <div className="flex gap-4 mt-6">
-                        <Link target="_blank" to="https://oumou-stack.github.io/site-statique" className="bg-melon hover:bg-pink text-white text-lg font-chewy px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">Voir le projet</Link>
+                        <Link target="_blank" to="https://oumou-stack.github.io/site-statique" className="bg-melon hover:bg-pink text-white text-lg font-semibold px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">Voir le projet</Link>
 
                         <Link to="https://github.com/Oumou-stack/site-statique" className="text-pink font-semibold border-2 border-melon border hover:bg-pink hover:text-white px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">
                             Voir le code
@@ -139,7 +139,7 @@ export default function Projects() {
 
                     {/*Btns*/}
                     <div className="flex gap-4 mt-6">
-                        <Link target="_blank" to="https://oumou-stack.github.io/shop" className="bg-melon hover:bg-pink text-white text-lg font-chewy px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">Voir le projet</Link>
+                        <Link target="_blank" to="https://oumou-stack.github.io/shop" className="bg-melon hover:bg-pink text-white text-lg font-semibold px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">Voir le projet</Link>
 
                         <Link target="_blank" to="https://github.com/Oumou-stack/shop" className="text-pink font-semibold border-2 border-melon border hover:bg-pink hover:text-white px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">
                             Voir le code

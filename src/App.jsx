@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mon-portfolio">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
