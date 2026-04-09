@@ -9,13 +9,14 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <BrowserRouter basename="/mon-portfolio">
+    <BrowserRouter basename="/mon-portfolio/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<div>La route n'est pas trouvée !</div>} />
       </Routes>
       <Footer />
     </BrowserRouter>
