@@ -14,7 +14,7 @@ export default function Projects() {
         <div className="mt-12 grid gap-8 md:grid-rows-3">
             {/* Projet 1 */}
             <div className="projects-card flex flex-col md:flex-row items-center gap-12 bg-white p-8 rounded-[20px] shadow-lg border-t-[5px] border-pink transition-transform hover:-translate-y-2 duration-300">
-                <img src={guardianImg} alt="Guardian" className="w-full md:w-[500px] rounded-2xl shadow-sm" />
+                <img src={guardianImg} loading="lazy" alt="Guardian" className="w-full md:w-[500px] rounded-2xl shadow-sm" />
                 <div className="p-6">
                     <h2 className="font-chewy text-3xl text-veranda-blue mb-4 text-shadow-none">Application Prévention Catastrophes Naturelles</h2>
                     <p className="mb-2"><strong>Contexte :</strong> Projet de groupe d'un mois</p>
@@ -63,7 +63,7 @@ export default function Projects() {
 
             {/* Projet 2 */}
             <div className="projects-card flex flex-col md:flex-row items-center gap-12 bg-white p-8 rounded-[20px] shadow-lg border-t-[5px] border-pink transition-transform hover:-translate-y-2 duration-300">
-                <img src={klivioImg} alt="Aperçu Klivio" className="w-full md:w-[500px] rounded-2xl shadow-sm" />
+                <img src={klivioImg} loading="lazy" alt="Aperçu Klivio" className="w-full md:w-[500px] rounded-2xl shadow-sm" />
                 
                 <div className="flex-1">
                     <h3 className="font-chewy text-3xl text-veranda-blue mb-4 text-shadow-none">Reproduction de Maquette (WAC)</h3>
@@ -108,7 +108,7 @@ export default function Projects() {
 
             {/* Projet 3 */}
             <div className="projects-card flex flex-col md:flex-row items-center gap-12 bg-white p-8 rounded-[20px] shadow-lg border-t-[5px] border-pink transition-transform hover:-translate-y-2 duration-300">
-                <img src={connectinImg} alt="Aperçu Connect'In" className="w-full md:w-[500px] rounded-2xl shadow-sm" />
+                <img src={connectinImg} loading="lazy" alt="Aperçu Connect'In" className="w-full md:w-[500px] rounded-2xl shadow-sm" />
                 
                 <div className="flex-1">
                     <h3 className="font-chewy text-3xl text-veranda-blue mb-4">Connect'In</h3>
