@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import guardianImg from '../assets/images/projects/guardian.gif'
 import klivioImg from '../assets/images/projects/klivio.gif'
-import eshopImg from '../assets/images/projects/eshop.gif'
+import connectinImg from '../assets/images/projects/connectin.gif'
 
 export default function Projects() {
   return (
@@ -108,40 +108,33 @@ export default function Projects() {
 
             {/* Projet 3 */}
             <div className="projects-card flex flex-col md:flex-row items-center gap-12 bg-white p-8 rounded-[20px] shadow-lg border-t-[5px] border-pink transition-transform hover:-translate-y-2 duration-300">
-                <img src={eshopImg} alt="Aperçu E-shop" className="w-full md:w-[500px] rounded-2xl shadow-sm" />
+                <img src={connectinImg} alt="Aperçu Connect'In" className="w-full md:w-[500px] rounded-2xl shadow-sm" />
                 
                 <div className="flex-1">
-                    <h3 className="font-chewy text-3xl text-veranda-blue mb-4 text-shadow-none">Site E-commerce</h3>
-                    <p className="mb-2"><strong>Contexte :</strong> Projet à La Toile</p>
-                    <p className="mb-6 text-gray-600 text-sm italic"><strong>Objectif :</strong> Concevoir et développer l'interface d'un site e-commerce moderne et intuitif</p>
-                    
+                    <h3 className="font-chewy text-3xl text-veranda-blue mb-4">Connect'In</h3>
+                    <p className="mb-2"><strong>Contexte :</strong> Projet de groupe — Web@cadémie by Epitech</p>
+                    <p className="mb-6 text-gray-600 text-sm italic"><strong>Objectif :</strong> Concevoir et développer un réseau social interne d'entreprise avec authentification, posts, commentaires et likes</p>
+                    <p className="mb-4"><strong>Rôle :</strong> Développement en duo — front-end & intégration API</p>
+
                     <div className="flex flex-wrap gap-2 mb-6">
-                        <span className="bg-pink/10 text-dark border-2 border-pink px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">HTML</span>
-                        <span className="bg-pink/10 text-dark border-2 border-pink px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">CSS</span>
+                        <span className="bg-pink/10 text-dark border-2 border-pink px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">Laravel</span>
+                        <span className="bg-pink/10 text-dark border-2 border-pink px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">PHP</span>
+                        <span className="bg-pink/10 text-dark border-2 border-pink px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">MySQL</span>
                         <span className="bg-pink/10 text-dark border-2 border-pink px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">JavaScript</span>
-                        
+                        <span className="bg-pink/10 text-dark border-2 border-pink px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">Tailwind CSS</span>
+                        <span className="bg-pink/10 text-dark border-2 border-pink px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">API REST</span>
                     </div>
 
                     <ul className="space-y-3 text-sm text-gray-700">
-                        <li className="relative pl-6">
-                            <span className="absolute left-0">🌸</span>
-                            Conception UX/UI
-                        </li>
-                        <li className="relative pl-6">
-                            <span className="absolute left-0">🌸</span>
-                            Développement front-end
-                        </li>
-                        <li className="relative pl-6">
-                            <span className="absolute left-0">🌸</span>
-                            Parcours utilisateur e-commerce
-                        </li>
+                        <li className="relative pl-6"><span className="absolute left-0">🌸</span>Architecture MVC avec API RESTful Laravel</li>
+                        <li className="relative pl-6"><span className="absolute left-0">🌸</span>Authentification sécurisée par token</li>
+                        <li className="relative pl-6"><span className="absolute left-0">🌸</span>Gestion des posts, commentaires et likes en dynamique</li>
+                        <li className="relative pl-6"><span className="absolute left-0">🌸</span>Consommation d'API via fetch/Axios</li>
+                        <li className="relative pl-6"><span className="absolute left-0">🌸</span>Travail en équipe, Git collaboratif</li>
                     </ul>
 
-                    {/*Btns*/}
                     <div className="flex gap-4 mt-6">
-                        <Link target="_blank" to="https://oumou-stack.github.io/shop" className="bg-melon hover:bg-pink text-white text-lg font-semibold px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">Voir le projet</Link>
-
-                        <Link target="_blank" to="https://github.com/Oumou-stack/shop" className="text-pink font-semibold border-2 border-melon border hover:bg-pink hover:text-white px-6 py-2 rounded-xl transition shadow-md text-shadow-btn">
+                        <Link target="_blank" to="https://github.com/Oumou-stack/connectin" className="bg-melon hover:bg-pink text-white text-lg font-semibold px-6 py-2 rounded-xl transition shadow-md">
                             Voir le code
                         </Link>
                     </div>
